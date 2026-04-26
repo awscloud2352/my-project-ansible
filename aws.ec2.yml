@@ -1,8 +1,0 @@
-plugin: aws_ec2
-regions:
-  - us-west-1
-filters:
-  tag:Name: MyAppServer
-keyed_groups:
-  - key: tags.Name
-    prefix: tag
