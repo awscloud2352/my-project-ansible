@@ -17,7 +17,8 @@ phases:
       - echo Testing connectivity
       - ansible all -i inventory -m ping --private-key ansiblepvt.key
       - echo Running playbook
-      - ansible-playbook -i inventory site.yml --private-key ansiblepvt.key
+      - ansible-playbook site.yml
+    #  - ansible-playbook -i inventory site.yml --private-key ansiblepvt.key
 
 artifacts:
   files:
