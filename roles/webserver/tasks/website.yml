@@ -1,3 +1,4 @@
+---
 - name: Copy index.html to Apache web root
   copy:
     src: index.html
