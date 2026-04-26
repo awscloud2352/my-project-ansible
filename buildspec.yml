@@ -15,6 +15,6 @@ phases:
   build:
     commands:
       - echo Testing connectivity
-      - ansible myhost -m ping
+      - ansible dev -m ping
       - echo Running playbook
-      - ansible-playbook -i inventory site.yml
+      - ansible-playbook -i inventory site.yml --limit dev
