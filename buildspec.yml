@@ -17,4 +17,4 @@ phases:
       - echo Testing connectivity
       - ansible dev -m ping
       - echo Running playbook
-      - ansible-playbook -i inventory site.yml --limit dev
+      - ansible-playbook -i inventory site.yml
