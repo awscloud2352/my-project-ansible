@@ -18,7 +18,3 @@ phases:
       - ansible all -i inventory -m ping --private-key ansiblepvt.key
       - echo Running playbook
       - ansible-playbook site.yml
-  
-  artifacts:
-  files:
-    - '**/*'
