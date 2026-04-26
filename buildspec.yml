@@ -1,4 +1,4 @@
-<S-Del>version: 0.2
+version: 0.2
 
 phases:
   install:
@@ -8,7 +8,7 @@ phases:
 
   pre_build:
     commands:
-      - echo Checking Ansible Version
+      - echo Checking version
       - ansible --version
       - chmod 400 ansiblepvt.key
 
