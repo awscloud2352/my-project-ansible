@@ -1,7 +1,4 @@
 ---
-- name: Configure Web Servers
-  hosts: myhost
-  become: yes
-
-  roles:
-    - webserver
+# tasks file for roles/webserver
+- import_tasks: install.yml
+- import_tasks: configure.yml
