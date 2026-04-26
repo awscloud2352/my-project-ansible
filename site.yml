@@ -1,5 +1,10 @@
-- name: Configure Web Servers
-  hosts: myhost
+---
+- hosts: dev
+  pre_tasks:
+    - debug:
+        msg: "Task before any role is applied"
   roles:
-    - webserver
-
+   - webserver
+  post_tasks:
+    - debug:
+        msg: "Task after all role is completed"
