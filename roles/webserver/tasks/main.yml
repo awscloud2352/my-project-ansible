@@ -3,4 +3,3 @@
 - import_tasks: install.yml
 - import_tasks: configure.yml
 - import_tasks: website.yml
-- import_tasks: aws.ec2.yml
