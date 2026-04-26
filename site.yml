@@ -1,5 +1,5 @@
 ---
-- hosts: myhost
+- hosts: dev
   pre_tasks:
     - debug:
         msg: "Task before any role is applied"
