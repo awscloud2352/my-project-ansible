@@ -1,6 +1,6 @@
 # Private keys
-*.pem
-*.key
+#*.pem
+#*.key
 *.ppk
 
 # Ansible retry files
