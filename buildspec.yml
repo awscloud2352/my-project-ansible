@@ -17,4 +17,4 @@ phases:
       - echo Testing connectivity
       - ansible myhost -m ping
       - echo Running playbook
-      - ansible-playbook site.yml
+      - ansible-playbook -i inventory site.yml
