@@ -2,7 +2,8 @@
 localhost ansible_connection=local
 
 [dev]
-managed-node-01.example.com hostVariableName=hostVariableValue ansible_connection=ssh
+#managed-node-01.example.com hostVariableName=hostVariableValue ansible_connection=ssh
+172.31.8.102
 
 [qa]
 managed-node-02.example.com
