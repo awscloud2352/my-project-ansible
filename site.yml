@@ -1,6 +1,6 @@
 ---
 - name: Configure Web Servers
-  hosts: dev
+  hosts: localhost
   become: yes
 
   roles:
