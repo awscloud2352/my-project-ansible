@@ -1,5 +1,5 @@
 - name: Configure Web Servers
-  hosts: webserver
+  hosts: myhost
   roles:
     - webserver
 
